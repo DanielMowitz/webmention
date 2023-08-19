@@ -14,6 +14,7 @@
 //!
 //! There is a CLI tool available with support for sending webmentions, and (optionally) a simple endpoint
 //! based on Rocket.
+use crate::wm_url::Url;
 
 pub mod error;
 /// Defines document
