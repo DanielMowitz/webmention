@@ -23,7 +23,7 @@ anyhow = "1" # wrapping errors
 
 nom = "7" # parsing Link header
 
-rocket = { version = "0.4.7", optional = true} # for web server
+rocket = { version = "=0.5.0-rc.3", optional = true} # for web server
 clap = { version = "2.33.3", optional = true} # for CLI
 tokio = { version = "1", optional = true, default-features = false }
 
