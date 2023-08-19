@@ -36,10 +36,6 @@ pub(crate) mod wm_url;
 pub use crate::error::WebmentionError;
 /// Source URL and target URL combined with some metadata
 pub use crate::webmention::Webmention;
-/// Trait for storage backends
-pub use crate::storage::WebmentionStorage;
-/// Example implementation of a Webmention storage backend
-pub use crate::storage::InMemoryWebmentionStorage;
 
 #[cfg(feature = "receive")]
 pub async fn receive_webmention(
